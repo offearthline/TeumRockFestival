@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<meta name="theme-color" content="#07140c">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<title>틈락페 - 언제든 공연 중인 온라인 락페스티벌 | 부락페·락페 기다릴 때</title>
+<meta name="description" content="틈락페(TEUM ROCK FEST)는 브라우저에서 바로 들어가는 픽셀 온라인 락페스티벌이에요. 부락페 같은 락페가 그리울 때, 언제 들어와도 공연 중인 강변 들판에 돗자리를 펴고 손들기·리듬타기·슬램을 같이 해요. 설치·가입 없이 무료.">
+<meta name="keywords" content="틈락페, TEUM ROCK FEST, 락페, 락페스티벌, 록페, 록페스티벌, 부락페, 부산국제록페스티벌, 온라인 락페, 온라인 락페스티벌, 락페 게임, 픽셀 게임, 멀티플레이 웹게임">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="https://teum-rock-fest.fly.dev/">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/icon-192.png" type="image/png" sizes="192x192">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="틈락페">
+<meta property="og:title" content="틈락페 - 언제든 공연 중인 온라인 락페스티벌">
+<meta property="og:description" content="부락페 같은 락페가 그리울 때. 언제 들어와도 공연 중인 들판에 돗자리 펴고 손들기·리듬타기·슬램을 같이 해요.">
+<meta property="og:url" content="https://teum-rock-fest.fly.dev/">
+<meta property="og:image" content="https://teum-rock-fest.fly.dev/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="밤 무대 앞 들판에 모인 픽셀 관객과 틈락페 로고">
+<meta property="og:locale" content="ko_KR">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="틈락페 - 언제든 공연 중인 온라인 락페스티벌">
+<meta name="twitter:description" content="부락페 같은 락페가 그리울 때. 언제 들어와도 공연 중인 들판에 돗자리 펴고 손들기·리듬타기·슬램을 같이 해요.">
+<meta name="twitter:image" content="https://teum-rock-fest.fly.dev/og.png">
+<!-- 검색엔진·AI 답변용 구조화 데이터. 소개·FAQ 본문은 /about 에 있다 -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://teum-rock-fest.fly.dev/#website",
+      "url": "https://teum-rock-fest.fly.dev/",
+      "name": "틈락페",
+      "alternateName": ["TEUM ROCK FEST", "틈 락페", "틈락페스티벌", "틈록페", "틈 날때마다 즐기는 락페스티벌"],
+      "inLanguage": "ko-KR"
+    },
+    {
+      "@type": ["VideoGame", "WebApplication"],
+      "@id": "https://teum-rock-fest.fly.dev/#game",
+      "name": "틈락페",
+      "alternateName": "TEUM ROCK FEST",
+      "url": "https://teum-rock-fest.fly.dev/",
+      "description": "언제 들어와도 공연 중인 2D 픽셀 멀티플레이 온라인 락페스티벌. 부락페(부산국제록페스티벌) 같은 강변 락페 분위기를 브라우저에서 즐겨요. 돗자리 펴기, 손들기, 리듬타기, 슬램, 깃발, 캐릭터 꾸미기를 지원하고 최대 200명이 같은 들판에 모여요.",
+      "image": "https://teum-rock-fest.fly.dev/og.png",
+      "inLanguage": "ko-KR",
+      "genre": ["음악", "소셜", "멀티플레이", "픽셀 아트"],
+      "keywords": "락페, 락페스티벌, 록페스티벌, 부락페, 온라인 락페, 틈락페",
+      "playMode": "MultiPlayer",
+      "gamePlatform": ["Web browser", "PC", "Mobile"],
+      "applicationCategory": "GameApplication",
+      "operatingSystem": "Any (웹 브라우저)",
+      "isAccessibleForFree": true,
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "KRW" },
+      "isPartOf": { "@id": "https://teum-rock-fest.fly.dev/#website" },
+      "subjectOf": { "@type": "WebPage", "url": "https://teum-rock-fest.fly.dev/about" }
+    }
+  ]
+}
+</script>
+<style>
+  :root {
+    /* 숲색·라임 테마. --hot = 주요 버튼·켜진 상태, --gold = 제목·강조 글씨 */
+    --bg: #07140c; --ink: #f1fbe9; --dim: #a7c9a2; --panel: rgba(10, 31, 18, 0.84); --line: rgba(163, 230, 53, 0.24);
+    --hot: #a3e635; --on-hot: #0a1f12; --hot-sh: #4d7c0f; --hot-bg: rgba(163, 230, 53, 0.22);
+    --gold: #d9f99d; --title-sh: #2f7d32; --warn: #ff9f7a;
+    --font: "Galmuri11", "DungGeunMo", "Apple SD Gothic Neo", "Malgun Gothic", system-ui, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; height: 100%; background: var(--bg); color: var(--ink); font-family: var(--font); overflow: hidden;
+    overscroll-behavior: none; touch-action: none; -webkit-user-select: none; user-select: none; -webkit-touch-callout: none; -webkit-tap-highlight-color: transparent; }
+  canvas { display: block; image-rendering: pixelated; }
+  .panel { background: var(--panel); border: 2px solid var(--line); border-radius: 6px; backdrop-filter: blur(4px); }
+
+  #hud { position: fixed; top: 12px; left: 12px; padding: 10px 14px; min-width: 200px; pointer-events: none; }
+  #hud .title { font-weight: 800; letter-spacing: 2px; color: var(--gold); font-size: 15px; }
+  #hud .row { font-size: 12px; color: var(--dim); margin-top: 4px; }
+  #hud .row b { color: var(--ink); font-weight: 700; }
+
+  #keys { position: fixed; right: 12px; bottom: 12px; padding: 8px 10px; display: flex; gap: 6px; flex-wrap: wrap; justify-content: flex-end; max-width: calc(100% - 24px); }
+  #keys .k { font-size: 12px; padding: 4px 8px; border-radius: 4px; border: 1px solid var(--line); color: var(--dim); white-space: nowrap; }
+  #keys .k kbd { font-family: inherit; color: var(--ink); background: rgba(255,255,255,0.12); padding: 0 5px; border-radius: 3px; margin-right: 4px; }
+  #keys .k.on { border-color: var(--hot); color: var(--ink); background: var(--hot-bg); }
+
+  #toast { position: fixed; left: 50%; top: 18%; transform: translateX(-50%); padding: 8px 16px; font-size: 14px; opacity: 0; transition: opacity .25s; pointer-events: none; white-space: nowrap; }
+  #toast.show { opacity: 1; }
+  @media (max-width: 900px) {
+    #keys .k { font-size: 11px; padding: 3px 6px; }
+  }
+  #net { position: fixed; top: 64px; right: 12px; padding: 6px 10px; font-size: 12px; display: none; }
+  #sound { position: fixed; top: calc(12px + env(safe-area-inset-top)); right: calc(12px + env(safe-area-inset-right)); width: 44px; height: 44px; padding: 0;
+    font-size: 20px; color: var(--ink); cursor: pointer; display: none; touch-action: none; }
+  #sound.off { opacity: 0.6; }
+  body.playing.has-music #sound { display: block; }
+  #zoom { position: fixed; top: calc(12px + env(safe-area-inset-top)); right: calc(12px + env(safe-area-inset-right)); display: none; padding: 0; touch-action: none; }
+  body.playing #zoom { display: flex; }
+  body.has-music #zoom { right: calc(64px + env(safe-area-inset-right)); }
+  #zoom button { width: 44px; height: 40px; padding: 0; border: 0; background: none; color: var(--ink); font: inherit; font-size: 20px; font-weight: 700; cursor: pointer; touch-action: none; }
+  #zoom button + button { border-left: 2px solid var(--line); }
+  #keys .k.music { display: none; }
+  body.has-music #keys .k.music { display: inline-block; }
+
+  /* 모바일 터치 조작: 화면을 누르면 그쪽으로 걷고, 동작 버튼은 아래 한 줄 */
+  #touch { display: none; }
+  body.touch.playing #touch { display: block; }
+  body.touch #keys { display: none; }
+  #pad { position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(10px + env(safe-area-inset-bottom)); display: flex; gap: 2px; padding: 4px; border-radius: 26px; touch-action: none; }
+  .tb { width: 44px; height: 44px; padding: 0; border-radius: 50%; border: 2px solid transparent; background: none; color: var(--ink); font-size: 21px; line-height: 1;
+    display: grid; place-items: center; touch-action: none; }
+  .tb.on { border-color: var(--hot); background: var(--hot-bg); }
+  .tb.edit { margin-left: 4px; position: relative; }
+  .tb.edit::before { content: ""; position: absolute; left: -5px; top: 10px; bottom: 10px; width: 2px; background: var(--line); }
+  @media (max-width: 600px) {
+    #hud { top: calc(8px + env(safe-area-inset-top)); left: calc(8px + env(safe-area-inset-left)); padding: 6px 10px; min-width: 0; }
+    #hud .title { font-size: 13px; }
+    #hud .row { font-size: 11px; margin-top: 2px; }
+    #toast { top: 22%; font-size: 13px; white-space: normal; width: max-content; max-width: calc(100% - 32px); text-align: center; }
+  }
+
+  #join { position: fixed; inset: 0; display: grid; place-items: center; background: radial-gradient(ellipse at 50% 30%, rgba(30,80,40,0.5), rgba(3,12,6,0.92)); padding: 16px; }
+  #join .card { width: min(580px, 100%); max-height: calc(100dvh - 32px); overflow-y: auto; padding: 22px; text-align: center; touch-action: pan-y; -webkit-user-select: text; user-select: text; }
+  #join.editing #cancel { display: block; }
+  #cancel { display: none; background: rgba(255,255,255,0.06); color: var(--dim); }
+  /* 정원이 꽉 찼을 때: 밖에서 무대를 보며 기다리는 웨이팅 카드 */
+  #queue { position: fixed; left: 50%; bottom: calc(16px + env(safe-area-inset-bottom)); transform: translateX(-50%); width: min(380px, calc(100% - 24px)); padding: 14px 16px; text-align: center; display: none; }
+  body.waiting #queue { display: block; animation: qIn .5s cubic-bezier(.2, 1.3, .4, 1) both; }
+  body.waiting #keys { display: none; }
+  #queue .q-live { display: inline-flex; align-items: center; gap: 6px; font-size: 11px; color: var(--dim); letter-spacing: 1px; }
+  #queue .q-live i { width: 7px; height: 7px; border-radius: 50%; background: var(--hot); animation: qDot 1.2s ease-in-out infinite; }
+  #queue h2 { margin: 6px 0 2px; font-size: 18px; color: var(--gold); text-shadow: 2px 2px 0 var(--title-sh); letter-spacing: 1px; }
+  #queue p { margin: 0 0 12px; font-size: 12px; color: var(--dim); line-height: 1.5; }
+  #queue .q-ticket { display: flex; align-items: stretch; border: 2px solid var(--line); border-radius: 8px; overflow: hidden; }
+  #queue .q-no { flex: 1; padding: 8px 10px; border-right: 2px dashed var(--line); }
+  #queue .q-no span, #queue .q-ahead span { display: block; font-size: 11px; color: var(--dim); }
+  #queue .q-no b { display: block; font-size: 30px; line-height: 1.1; color: var(--hot); letter-spacing: 1px; }
+  #queue .q-ahead { flex: 1; padding: 8px 10px; display: flex; flex-direction: column; justify-content: center; }
+  #queue .q-ahead b { font-size: 18px; color: var(--ink); }
+  #queue .q-ahead.next b { color: var(--hot); }
+  #queue .q-foot { margin-top: 8px; font-size: 11px; color: var(--dim); }
+  @keyframes qIn { from { transform: translate(-50%, 30px); opacity: 0; } to { transform: translate(-50%, 0); opacity: 1; } }
+  @keyframes qDot { 50% { opacity: .25; } }
+
+  /* 온보딩 단계: 이름 → 팔찌 → 캐릭터 */
+  #join .steps { display: flex; justify-content: center; gap: 6px; margin-bottom: 14px; }
+  #join .steps span { font-size: 11px; color: var(--dim); padding: 3px 10px; border-radius: 10px; border: 1px solid var(--line); }
+  #join .steps span.on { color: #fff; border-color: var(--hot); background: var(--hot-bg); }
+  #join .steps span.done { color: var(--gold); }
+  #join.editing .steps, #join.daily .steps { display: none; }
+  #join .step { display: none; }
+  #join[data-step="name"] .step-name, #join[data-step="band"] .step-band, #join[data-step="look"] .step-look { display: block; }
+  #join .hint { min-height: 16px; margin: 6px 0 0; font-size: 12px; color: var(--warn); }
+
+  /* 락페 입장 팔찌: 천 띠 + 바느질 + 바코드 + 금속 고리 */
+  .band-wrap { padding: 14px 0 6px; perspective: 700px; }
+  .band { --band: #ff4fa3; display: flex; width: min(440px, 100%); height: 78px; margin: 0 auto; animation: bandIn .8s cubic-bezier(.2, 1.4, .4, 1) both; }
+  .band-strap { flex: 1; min-width: 0; position: relative; overflow: hidden; display: flex; flex-direction: column; justify-content: center; gap: 2px; padding: 0 70px 0 18px; text-align: left;
+    border-radius: 8px 0 0 8px; color: #fff;
+    background: repeating-linear-gradient(90deg, rgba(255,255,255,0.09) 0 2px, transparent 2px 5px), repeating-linear-gradient(0deg, rgba(0,0,0,0.12) 0 1px, transparent 1px 4px), var(--band);
+    box-shadow: inset 0 0 0 3px rgba(255,255,255,0.16), 0 6px 0 rgba(0,0,0,0.35); }
+  .band-strap::before { content: ""; position: absolute; inset: 5px; border: 1px dashed rgba(255,255,255,0.5); border-radius: 5px; pointer-events: none; }
+  .band-strap::after { content: ""; position: absolute; top: 0; bottom: 0; left: -90px; width: 60px; background: linear-gradient(100deg, transparent, rgba(255,255,255,0.5), transparent); animation: bandShine 2.6s .8s infinite; }
+  .band-top { font-size: 10px; font-weight: 800; letter-spacing: 2px; opacity: .85; }
+  .band-name { font-size: 22px; font-weight: 900; letter-spacing: 1px; text-shadow: 2px 2px 0 rgba(0,0,0,0.3); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .band-no { font-size: 10px; font-weight: 700; letter-spacing: 1px; opacity: .85; }
+  .band-code { position: absolute; right: 12px; top: 12px; bottom: 12px; width: 48px; border-radius: 3px; padding: 4px;
+    background: #fff padding-box; box-shadow: inset 0 0 0 4px #fff; }
+  .band-code i { display: block; height: 100%; background: repeating-linear-gradient(90deg, #111 0 2px, #fff 2px 3px, #111 3px 4px, #fff 4px 6px, #111 6px 9px, #fff 9px 10px); }
+  .band-clasp { flex: none; width: 44px; display: grid; place-items: center; border-radius: 0 8px 8px 0;
+    background: linear-gradient(180deg, #f2f4f7, #a9b0bb 45%, #e3e7ec 55%, #8a919c); box-shadow: inset 0 0 0 2px rgba(0,0,0,0.25), 0 6px 0 rgba(0,0,0,0.35); }
+  .band-clasp::before { content: ""; width: 16px; height: 30px; border-radius: 4px; background: repeating-linear-gradient(0deg, #6b727d 0 2px, #c5cbd3 2px 4px); }
+  .band.worn { animation: bandSnap .7s ease-in forwards; }
+  @keyframes bandIn { from { transform: translateX(-70%) rotate(-10deg); opacity: 0; } to { transform: none; opacity: 1; } }
+  @keyframes bandShine { 0% { left: -90px; } 55%, 100% { left: 110%; } }
+  @keyframes bandSnap { 25% { transform: scale(1.06); } 100% { transform: scale(.3) rotateY(75deg); opacity: 0; } }
+  #hud .band-chip { display: inline-block; width: 18px; height: 8px; margin-right: 4px; border-radius: 2px; vertical-align: 1px; background: var(--band, #ff4fa3); box-shadow: inset 0 0 0 1px rgba(255,255,255,0.4); }
+  #join h1 { margin: 0; font-size: 28px; letter-spacing: 4px; color: var(--gold); text-shadow: 3px 3px 0 var(--title-sh); }
+  #join p { margin: 6px 0 16px; color: var(--dim); font-size: 13px; }
+  #join.editing #nameInput { display: none; }
+  .custom { display: flex; gap: 16px; align-items: flex-start; margin-bottom: 14px; text-align: left; }
+  #preview { flex: none; width: 168px; height: 182px; background: #5f9e3c; border: 2px solid var(--line); border-radius: 6px; }
+  #parts { flex: 1; display: grid; gap: 7px; min-width: 0; }
+  .part { display: grid; grid-template-columns: 64px 1fr; align-items: center; gap: 8px; font-size: 12px; color: var(--dim); }
+  .swatches { display: flex; flex-wrap: wrap; gap: 4px; }
+  .sw { width: 20px; height: 20px; padding: 0; border: 2px solid rgba(0,0,0,0.5); border-radius: 4px; cursor: pointer; }
+  .sw.on { outline: 2px solid var(--gold); outline-offset: 1px; }
+  .sw.flag { width: 26px; }
+  .part .part-hint { grid-column: 2; margin-top: -3px; font-size: 11px; color: var(--dim); }
+  .stepper { display: flex; align-items: center; gap: 6px; }
+  .stepper button { flex: none; width: 26px; height: 24px; padding: 0; font: inherit; font-size: 11px; color: var(--ink); background: rgba(255,255,255,0.12); border: 0; border-radius: 4px; cursor: pointer; }
+  .stepper span { flex: 1; text-align: center; color: var(--ink); font-size: 13px; }
+  @media (max-width: 520px) {
+    #join { padding: 10px; }
+    #join .card { padding: 16px 14px; max-height: calc(100dvh - 20px); }
+    #join h1 { font-size: 22px; letter-spacing: 3px; }
+    #join p { margin-bottom: 10px; }
+    .custom { flex-direction: column; align-items: center; gap: 10px; }
+    #preview { width: 144px; height: 156px; }
+    #parts { width: 100%; }
+    .part { grid-template-columns: 58px 1fr; }
+    .sw { width: 26px; height: 26px; }
+    .stepper button { width: 36px; height: 32px; font-size: 13px; }
+  }
+  #join input { width: 100%; padding: 10px; font: inherit; font-size: 16px; color: var(--ink); background: rgba(0,0,0,0.4); border: 2px solid var(--line); border-radius: 6px; outline: none; text-align: center; }
+  #join input:focus { border-color: var(--gold); }
+  #join .btns { display: flex; gap: 8px; margin-top: 10px; }
+  #join .btns button { flex: 1; padding: 10px; font: inherit; font-size: 15px; font-weight: 700; border: 0; border-radius: 6px; cursor: pointer; }
+  #reroll { background: rgba(255,255,255,0.12); color: var(--ink); }
+  #join .primary { background: var(--hot); color: var(--on-hot); box-shadow: 0 3px 0 var(--hot-sh); }
+  #join .primary:active { transform: translateY(2px); box-shadow: 0 1px 0 var(--hot-sh); }
+  /* 소개 페이지 링크 (검색엔진이 따라갈 수 있는 일반 링크) */
+  #join .about { margin: 14px 0 0; font-size: 11px; }
+  #join .about a { color: var(--dim); text-decoration: underline; text-underline-offset: 3px; }
+  #join .about a:hover { color: var(--gold); }
+  #join.editing .about { display: none; }
+</style>
+</head>
+<body>
+<canvas id="game"></canvas>
+
+<div id="hud" class="panel">
+  <div class="title" id="festName">틈락페</div>
+  <div class="row">🎤 NOW ON STAGE · <b id="nowBand">-</b></div>
+  <div class="row" id="songRow" style="display:none">🎵 <b id="song">-</b></div>
+  <div class="row">🟢 <b id="online">0</b>명 접속 · <span id="phase">-</span></div>
+  <div class="row" id="bandRow" style="display:none"><span class="band-chip" id="bandChip"></span><b id="bandLabel"></b></div>
+</div>
+<button id="sound" class="panel" type="button" aria-label="소리 켜기/끄기">🔊</button>
+<div id="zoom" class="panel"><button type="button" data-zoom="-1" aria-label="축소">−</button><button type="button" data-zoom="1" aria-label="확대">+</button></div>
+<div id="net" class="panel">연결 중…</div>
+
+<div id="keys" class="panel">
+  <span class="k"><kbd>←↑↓→</kbd>이동</span>
+  <span class="k" data-k="mat"><kbd>Space</kbd>돗자리</span>
+  <span class="k" data-a="1"><kbd>1</kbd>손들기</span>
+  <span class="k" data-a="2"><kbd>2</kbd>리듬타기</span>
+  <span class="k" data-a="3"><kbd>3</kbd>슬램</span>
+  <span class="k" data-k="flag"><kbd>4</kbd>깃발</span>
+  <span class="k"><kbd>C</kbd>꾸미기</span>
+  <span class="k"><kbd>−/+</kbd>줌</span>
+  <span class="k music"><kbd>M</kbd>소리</span>
+</div>
+
+<div id="toast" class="panel"></div>
+
+<div id="queue" class="panel" role="status" aria-live="polite">
+  <div class="q-live"><i></i>대기 중</div>
+  <h2>지금 페스티벌이 꽉 찼어요</h2>
+  <p>밖에서 락페를 즐겨주세요 🎶<br>자리가 나면 순서대로 바로 들어가요</p>
+  <div class="q-ticket">
+    <div class="q-no"><span>웨이팅 번호</span><b id="qNo">-</b></div>
+    <div class="q-ahead" id="qAheadBox"><span>내 앞에</span><b id="qAhead">-</b></div>
+  </div>
+  <div class="q-foot" id="qFoot">정원 200명</div>
+</div>
+
+<div id="touch">
+  <div id="pad" class="panel">
+    <button class="tb" data-act="1" data-a="1" type="button" aria-label="손들기">✋</button>
+    <button class="tb" data-act="2" data-a="2" type="button" aria-label="리듬타기">🎵</button>
+    <button class="tb" data-act="3" data-a="3" type="button" aria-label="슬램">💥</button>
+    <button class="tb" data-act="flag" data-k="flag" type="button" aria-label="깃발">🚩</button>
+    <button class="tb" data-act="mat" data-k="mat" type="button" aria-label="돗자리">🧺</button>
+    <button class="tb edit" data-act="edit" type="button" aria-label="꾸미기">👕</button>
+  </div>
+</div>
+
+<div id="join" data-step="name">
+  <div class="card panel">
+    <div class="steps"><span data-s="name">① 이름</span><span data-s="band">② 팔찌</span><span data-s="look">③ 캐릭터</span></div>
+    <h1 id="joinTitle">틈락페</h1>
+    <p id="joinSub">틈 날때마다 즐기는 락페스티벌</p>
+    <div class="step step-name">
+      <input id="nameInput" maxlength="12" placeholder="이름 (최대 12자)" autocomplete="off" enterkeyhint="next">
+      <p class="hint" id="nameHint"></p>
+      <div class="btns"><button id="nameNext" class="primary" type="button">다음</button></div>
+    </div>
+    <div class="step step-band">
+      <div class="band-wrap">
+        <div class="band" id="band">
+          <div class="band-strap">
+            <span class="band-top" id="bandFest">틈락페 · ALL DAY PASS</span>
+            <span class="band-name" id="bandName">-</span>
+            <span class="band-no" id="bandNo">No. 000000</span>
+            <span class="band-code"><i></i></span>
+          </div>
+          <div class="band-clasp"></div>
+        </div>
+      </div>
+      <div class="btns"><button id="bandNext" class="primary" type="button">팔찌 차기 🎟️</button></div>
+    </div>
+    <div class="step step-look">
+      <div class="custom">
+        <canvas id="preview" width="24" height="26"></canvas>
+        <div id="parts"></div>
+      </div>
+      <div class="btns">
+        <button id="cancel" type="button">취소</button>
+        <button id="reroll" type="button">🎲 랜덤</button>
+        <button id="enter" class="primary" type="button">입장하기 🎸</button>
+      </div>
+    </div>
+    <noscript><p class="hint">틈락페는 자바스크립트를 켜야 입장할 수 있어요.</p></noscript>
+    <p class="about"><a href="/about">틈락페가 뭐예요? · 즐기는 법 · 자주 묻는 질문</a></p>
+  </div>
+</div>
+
+<script src="stats.js"></script>
+<script src="shared.js"></script>
+<script src="game.js"></script>
+</body>
+</html>

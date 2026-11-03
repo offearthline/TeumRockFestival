@@ -1,0 +1,89 @@
+{
+  "festivalName": "틈락페",
+  "tagline": "틈 날때마다 즐기는 락페스티벌",
+  "stageName": "TEUM ROCK FEST",
+  "slideSeconds": 7,
+  "setMinutes": 4,
+  "lineup": [
+    "THE PIXEL KIDS",
+    "노을밴드",
+    "8BIT RIOT",
+    "강변소음",
+    "LOUD SHEEP"
+  ],
+  "fenceSeconds": 10,
+  "fence": [
+    { "text": "틈락페", "bg": "#3a1466", "fg": "#ffd84a", "accent": "#ff4fa3" },
+    { "text": "광고 문의 환영", "bg": "#5a1020", "fg": "#ffe066", "accent": "#ff5f5f" },
+    { "text": "@product.pt", "bg": "#ffffff", "fg": "#d62976", "accent": "#fa7e1e" },
+    { "text": "NO RULES 🤘", "bg": "#14285a", "fg": "#ffffff", "accent": "#ffd84a" }
+  ],
+  "slides": [
+    {
+      "type": "text",
+      "icon": "🎸",
+      "title": "틈락페",
+      "sub": "틈 날때마다 즐기는 락페스티벌",
+      "bg": "#3a1466",
+      "bg2": "#12062a",
+      "fg": "#ffd84a",
+      "accent": "#ff4fa3"
+    },
+    {
+      "type": "nowplaying",
+      "bg": "#0f3d2a",
+      "bg2": "#03140d",
+      "fg": "#7dffb0",
+      "accent": "#ffffff"
+    },
+    {
+      "type": "insta",
+      "handle": "product.pt",
+      "sub": "Instagram",
+      "bg": "#3a1450",
+      "bg2": "#140818",
+      "fg": "#ffffff",
+      "accent": "#ff5fae"
+    },
+    {
+      "type": "text",
+      "icon": "📣",
+      "label": "AD SPACE",
+      "title": "광고 문의 환영",
+      "sub": "이 자리에 광고를 걸어보세요",
+      "bg": "#5a1020",
+      "bg2": "#1a0408",
+      "fg": "#ffe066",
+      "accent": "#ff5f5f"
+    },
+    {
+      "type": "text",
+      "icon": "🎉",
+      "title": "좋아하는 노래를 틀고\n즐겨주세요",
+      "bg": "#0f3a5a",
+      "bg2": "#050f1c",
+      "fg": "#ffffff",
+      "accent": "#3fd0ff"
+    },
+    {
+      "type": "text",
+      "icon": "🤘",
+      "title": "무소음도 락이다",
+      "sub": "SILENT BUT LOUD",
+      "bg": "#2a2a2a",
+      "bg2": "#000000",
+      "fg": "#ffffff",
+      "accent": "#ff3b5c"
+    },
+    {
+      "type": "text",
+      "icon": "💥",
+      "title": "NO RULES",
+      "sub": "슬램은 스탠딩존에서만!",
+      "bg": "#14285a",
+      "bg2": "#050a1c",
+      "fg": "#ffffff",
+      "accent": "#ffd84a"
+    }
+  ]
+}

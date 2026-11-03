@@ -1,0 +1,6 @@
+# 틈락페 — 검색엔진·AI 크롤러 모두 환영
+User-agent: *
+Allow: /
+Disallow: /music/
+
+Sitemap: https://teum-rock-fest.fly.dev/sitemap.xml

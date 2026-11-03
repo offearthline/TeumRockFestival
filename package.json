@@ -1,0 +1,16 @@
+{
+  "name": "rock-anytime",
+  "version": "0.1.0",
+  "private": true,
+  "description": "틈락페 — 틈 날때마다 즐기는 락페스티벌",
+  "main": "server.js",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ws": "^8.22.0"
+  }
+}

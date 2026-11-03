@@ -1,0 +1,30 @@
+# 틈락페 Fly.io 설정 (도쿄 리전)
+# 접속자·웨이팅·NPC 상태를 서버 메모리에 들고 있으니 머신은 꼭 1대만 둔다.
+# 처음 배포할 때 `fly deploy --ha=false` (그냥 deploy하면 2대가 만들어져 사람들이 두 축제로 나뉜다)
+app = "teum-rock-fest"
+primary_region = "nrt"
+
+[http_service]
+  internal_port = 3000
+  force_https = true
+  # 아무도 없어도 꺼지지 않게 (언제 들어와도 공연 중)
+  auto_stop_machines = "off"
+  auto_start_machines = true
+  min_machines_running = 1
+
+  # 기본값(25)이면 26번째 사람부터 막힌다. 정원 200 + 웨이팅까지 넉넉하게
+  [http_service.concurrency]
+    type = "connections"
+    soft_limit = 400
+    hard_limit = 500
+
+  [[http_service.checks]]
+    method = "GET"
+    path = "/"
+    interval = "30s"
+    timeout = "5s"
+    grace_period = "10s"
+
+[[vm]]
+  size = "shared-cpu-1x"
+  memory = "512mb"

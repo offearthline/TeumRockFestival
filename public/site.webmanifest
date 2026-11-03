@@ -1,0 +1,17 @@
+{
+  "name": "틈락페 - 언제든 공연 중인 온라인 락페스티벌",
+  "short_name": "틈락페",
+  "description": "틈 날때마다 즐기는 락페스티벌. 언제 들어와도 공연 중인 들판에 모여요.",
+  "lang": "ko",
+  "start_url": "/",
+  "scope": "/",
+  "display": "fullscreen",
+  "orientation": "any",
+  "background_color": "#07140c",
+  "theme_color": "#07140c",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

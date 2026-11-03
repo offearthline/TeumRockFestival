@@ -1,0 +1,9 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    { "name": "festival", "runtimeExecutable": "node", "runtimeArgs": ["server.js"], "port": 3000 },
+    { "name": "festival-3001", "runtimeExecutable": "env", "runtimeArgs": ["PORT=3001", "node", "server.js"], "port": 3001 },
+    { "name": "festival-npc-test", "runtimeExecutable": "env", "runtimeArgs": ["PORT=3002", "NPC_WAVE_SEC=10", "RUSH_AFTER_SEC=8", "RUSH_SLAM_SEC=8", "RUSH_REST_SEC=8", "node", "server.js"], "port": 3002 },
+    { "name": "festival-ip-test", "runtimeExecutable": "env", "runtimeArgs": ["PORT=3003", "FLY_APP_NAME=local-test", "MAX_PER_IP=2", "node", "server.js"], "port": 3003 }
+  ]
+}
